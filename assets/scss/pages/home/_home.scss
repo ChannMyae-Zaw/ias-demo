@@ -1,4 +1,27 @@
-.home {
-  width: 1280px;
-  height: 100vh; 
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
+
+#intro {
+  background-image: url(/assets/images/home-background.png);
+  height: 100vh;
+}
+
+/* Height for devices larger than 576px */
+
+
+.navbar .nav-link {
+  color: $white !important;
+}
+
+
+.ourservice-text{
+  color: $orange;
+}
+
+.customer-img{
+  width: 100%;
+}
+
